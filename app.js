@@ -2,6 +2,7 @@ const colors = ['red', 'blue', 'green', 'yellow']
 
 console.log("============ Question 1 ============")
 // Using its index value in colors, console.log 'blue'
+console.log(colors[1])
 
 console.log("============ Question 2 ============")
 // add the value 'purple' to the end of the colors array
@@ -55,5 +56,5 @@ console.log("============ BONUS -- 2 ============")
 // Using index values and dot notation, console.log the first breed of each dog
 
 console.log("============ BONUS -- 3 ============")
-// Using string interpolation, print the following string
+// Using template literals, print the following string
 // Benny is 6 years old
