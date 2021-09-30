@@ -41,28 +41,8 @@ function whisper(word){
 
 console.log(`this should print true: ${whisper('Hello') === 'hello'}`)
 console.log(`this should print true: ${whisper('BOOGERS') === 'boogers'}`)
-console.log(`this should print true: ${whisper(4) === false}`)
 
 // console.log("============ BONUS      ============")
-
-// const dogs = [{
-//   name: 'Benny',
-//   age: 6,
-//   breeds: ['Terrier', 'Chihauhau', 'Pekingese']
-// },
-// {
-//   name: 'Finley',
-//   age: 2,
-//   breeds: ['Golden Retriever', 'Standard Poodle']
-// },
-// {
-//   name: 'Ruby',
-//   age: 4,
-//   breeds: ['Unknown Mix']
-// }]
-// console.log("============ BONUS -- 1 ============")
-// // Using index values and dot notation, console.log each dog's name
-// console.log(dogs[0].name, dogs[1].name, dogs[2].name)
 
 const dogs = [{
   name: 'Benny',
