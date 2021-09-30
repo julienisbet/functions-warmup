@@ -8,7 +8,10 @@ console.log("============ Question 2 ============")
 // add the value 'purple' to the end of the colors array
 // console.log the result
 colors.push('purple');
-console.log(colors);
+console.log(colors)
+// colors[4] = 'purple';
+// console.log(colors)
+// console.log(colors[4])
 
 const benny = {
   name: 'Benny',
@@ -32,10 +35,8 @@ console.log("============ Question 5 ============")
 // and returns an all lower case version
 
 function whisper(word){
-  if(typeof(word) === 'string'){
-    return word.toLowerCase();
-  }
-  return false;
+  // Your code here
+  return word.toLowerCase();
 }
 
 console.log(`this should print true: ${whisper('Hello') === 'hello'}`)
@@ -63,14 +64,32 @@ console.log(`this should print true: ${whisper(4) === false}`)
 // // Using index values and dot notation, console.log each dog's name
 // console.log(dogs[0].name, dogs[1].name, dogs[2].name)
 
-// console.log("============ BONUS -- 2 ============")
-// // Using index values and dot notation, console.log the first breed of each dog
-// console.log(dogs[0].breeds[0])
-// console.log(dogs[1].breeds[0])
-// console.log(dogs[2].breeds[0])
+const dogs = [{
+  name: 'Benny',
+  age: 6,
+  breeds: ['Terrier', 'Chihauhau', 'Pekingese']
+},
+{
+  name: 'Finley',
+  age: 2,
+  breeds: ['Golden Retriever', 'Standard Poodle']
+},
+{
+  name: 'Ruby',
+  age: 4,
+  breeds: ['Unknown Mix']
+}]
+console.log("============ BONUS -- 1 ============")
+// Using index values and dot notation, console.log each dog's name
+console.log(dogs[0].name)
+console.log(dogs[1].name)
+console.log(dogs[2].name)
 
-// console.log("============ BONUS -- 3 ============")
-// // Using template literals, print the following string
-// // Benny is 6 years old
-// console.log(dogs[0].name, "is", dogs[0].age, "years old.")
-// console.log(`${dogs[0].name} is ${dogs[0].age} years old`)
+console.log("============ BONUS -- 2 ============")
+// Using index values and dot notation, console.log the first breed of each dog
+console.log(dogs[0].breeds[0], dogs[1].breeds[0], dogs[2].breeds[0])
+
+console.log("============ BONUS -- 3 ============")
+// Using template literals, print the following string
+// Benny is 6 years old
+console.log(`${dogs[0].name} is ${dogs[0].age} years old`)
