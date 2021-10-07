@@ -18,7 +18,7 @@ console.log("============ Question 3 ============")
 // Using dot notation, console.log the name and age of Benny
 
 console.log("============ Question 4 ============")
-// Using dot notation, console.log any one of Benny's breeds
+// Using dot notation and index values, console.log any one of Benny's breeds
 
 console.log("============ Question 5 ============")
 // Add code to the whisper function so that it takes whatever string is given to it
