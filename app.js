@@ -2,7 +2,6 @@ const colors = ['red', 'blue', 'green', 'yellow']
 
 console.log("============ Question 1 ============")
 // Using its index value in colors, console.log 'blue'
-console.log(colors[1])
 
 console.log("============ Question 2 ============")
 // add the value 'purple' to the end of the colors array
